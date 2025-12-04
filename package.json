@@ -1,0 +1,45 @@
+{
+  "name": "tw-course",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gobob/bob-sdk": "^4.4.9",
+    "@gobob/sats-wagmi": "^0.3.23",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-slider": "^1.3.5",
+    "@radix-ui/react-tooltip": "^1.2.7",
+    "@reown/appkit": "^1.8.14",
+    "@reown/appkit-adapter-bitcoin": "^1.8.14",
+    "@tailwindcss/vite": "^4.0.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^3.3.0",
+    "tailwindcss": "^4.0.12",
+    "vercel": "^48.12.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "buffer": "^6.0.3",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "process": "^0.11.10",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  }
+}
